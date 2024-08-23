@@ -1,0 +1,212 @@
+html,
+body {
+    margin: -10px;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-page {
+    background: linear-gradient(90deg, #FCFEFC 0%, #A5DEFF 100%);
+}
+
+/* Main content */
+.text-container {
+    border-radius: 40px;
+    background: #fff;
+    padding: 60px 60px 72px 60px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 12px 24px 12px 24px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #FF6500;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.logo {
+    margin-top: 32px;
+    margin-bottom: 60px;
+}
+
+.hello {
+    margin-bottom: 60px;
+    margin-top: 0;
+    color: #1B1D1F;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    ;
+}
+
+.text-title {
+    margin-bottom: 24px;
+    margin-top: 0;
+    color: #1B1D1F;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.main-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+/* Gus facts */
+.gus-facts {
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 100px;
+}
+
+.gus-facts-title {
+    color: #1B1D1F;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.gus-facts-text {
+    color: #1B1D1F;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 24px;
+    width: 772px;
+    margin: auto;
+}
+
+.gus-facts-item-title {
+    color: var#1B1D1F;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.gus-facts-item {
+    width: 374px;
+}
+
+.gus-facts-item-text {
+    color: #1B1D1F;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+
+/* Form page */
+.form-page {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: linear-gradient(90deg, #FCFEFC 0%, #A5DEFF 100%);
+}
+
+form {
+    color: #1B1D1F;
+    padding: 32px 60px 60px 60px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    box-sizing: border-box;
+    width: 573px;
+    border-radius: 40px;
+    background: var(--White, #FFF);
+    margin: auto;
+    text-align: center;
+}
+
+.form-title {
+    margin-top: 32px;
+    margin-bottom: 12px;
+    color: #1B1D1F;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.form-decsription {
+    color: #1B1D1F;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+input {
+    border-radius: 8px;
+    border: 1px solid var(--blue, #005BBB);
+    background: #FFF;
+    width: 453px;
+    height: 60px;
+    color: #1B1D1F;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 12px;
+    box-sizing: border-box;
+}
+
+label {
+    color: #1B1D1F;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 24px;
+}
+
+.form-field {
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.form-btn {
+    margin-top: 36px;
+    padding: 12px 24px 12px 24px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #FF6500;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
